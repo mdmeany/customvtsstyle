@@ -270,7 +270,7 @@
       "maxzoom": 15,
       "filter": ["==", "_symbol", 0],
       "layout": {},
-      "paint": {"fill-color": "#D1E7C3"}
+      "paint": {"fill-color": "#713EA0"}
     },
     {
       "id": "OS/Woodland:3/National/1",
@@ -281,7 +281,7 @@
       "maxzoom": 10,
       "filter": ["==", "_symbol", 1],
       "layout": {},
-      "paint": {"fill-color": "rgba(209,231,195,0.6)"}
+      "paint": {"fill-color": "#713EA0"}
     },
     {
       "id": "OS/Woodland:3/Regional/1",
@@ -292,7 +292,7 @@
       "maxzoom": 12,
       "filter": ["==", "_symbol", 2],
       "layout": {},
-      "paint": {"fill-color": "#D1E7C3"}
+      "paint": {"fill-color": "#713EA0"}
     },
     {
       "id": "OS/District_buildings/1",

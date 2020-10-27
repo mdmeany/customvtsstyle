@@ -61,7 +61,7 @@
       "maxzoom": 10,
       "filter": ["==", "_symbol", 1],
       "layout": {},
-      "paint": {"fill-color": "rgba(220,215,198,0.7)"}
+      "paint": {"fill-color": "#713EA0"}
     },
     {
       "id": "OS/Woodland:3/Local/1",

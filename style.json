@@ -64,59 +64,6 @@
       "paint": {"fill-color": "rgba(220,215,198,0.7)"}
     },
     {
-      "id": "OS/Greenspace:2/1",
-      "type": "fill",
-      "source": "esri",
-      "source-layer": "Greenspace:2",
-      "minzoom": 9,
-      "maxzoom": 16,
-      "layout": {},
-      "paint": {"fill-color": "#713EA0"}
-    },
-    {
-      "id": "OS/Greenspace:2/0",
-      "type": "line",
-      "source": "esri",
-      "source-layer": "Greenspace:2",
-      "minzoom": 9,
-      "maxzoom": 16,
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {
-        "line-color": "#713EA0",
-        "line-width": {
-          "stops": [
-            [10, 0],
-            [11, 0],
-            [12, 0],
-            [13, 0],
-            [14, 0.1],
-            [15, 0.15],
-            [16, 0.25]
-          ]
-        }
-      }
-    },
-    {
-      "id": "OS/TopographicArea_1/Foreshore",
-      "type": "fill",
-      "source": "esri",
-      "source-layer": "TopographicArea_1",
-      "minzoom": 16,
-      "filter": ["==", "_symbol", 30],
-      "layout": {},
-      "paint": {"fill-color": "#EAEAD2"}
-    },
-    {
-      "id": "OS/TopographicArea_1/Sand",
-      "type": "fill",
-      "source": "esri",
-      "source-layer": "TopographicArea_1",
-      "minzoom": 16,
-      "filter": ["==", "_symbol", 25],
-      "layout": {},
-      "paint": {"fill-color": "#F4F0D3"}
-    },
-    {
       "id": "OS/Woodland:3/Local/1",
       "type": "fill",
       "source": "esri",
@@ -150,36 +97,6 @@
       "paint": {"fill-color": "#713EA0"}
     },
     {
-      "id": "OS/District_buildings/1",
-      "type": "fill",
-      "source": "esri",
-      "source-layer": "District_buildings",
-      "minzoom": 10,
-      "maxzoom": 12,
-      "layout": {},
-      "paint": {"fill-color": "#DCD7C6"}
-    },
-    {
-      "id": "OS/Local_buildings/1",
-      "type": "fill",
-      "source": "esri",
-      "source-layer": "Local_buildings",
-      "minzoom": 12,
-      "maxzoom": 15,
-      "layout": {},
-      "paint": {"fill-color": "#DCD7C6"}
-    },
-    {
-      "id": "OS/Foreshore/1",
-      "type": "fill",
-      "source": "esri",
-      "source-layer": "Foreshore",
-      "minzoom": 9,
-      "maxzoom": 16,
-      "layout": {},
-      "paint": {"fill-color": "#EAEAD2"}
-    },
-    {
       "id": "OS/Waterlines/Local",
       "type": "line",
       "source": "esri",
@@ -189,50 +106,6 @@
       "filter": ["==", "_symbol", 1],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {"line-color": "#A4DAEB", "line-width": 1}
-    },
-    {
-      "id": "OS/Waterlines/Local_1",
-      "type": "line",
-      "source": "esri",
-      "source-layer": "Waterlines",
-      "minzoom": 11,
-      "maxzoom": 16,
-      "filter": ["==", "_symbol", 1],
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {"line-color": "#A4DAEB", "line-width": 1}
-    },
-    {
-      "id": "OS/Waterlines/National",
-      "type": "line",
-      "source": "esri",
-      "source-layer": "Waterlines",
-      "minzoom": 5,
-      "maxzoom": 6,
-      "filter": ["==", "_symbol", 4],
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {"line-color": "#A4DAEB", "line-width": 0.4}
-    },
-    {
-      "id": "OS/Waterlines/Regional",
-      "type": "line",
-      "source": "esri",
-      "source-layer": "Waterlines",
-      "minzoom": 7,
-      "maxzoom": 9,
-      "filter": ["==", "_symbol", 5],
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {"line-color": "#A4DAEB", "line-width": 1}
-    },
-    {
-      "id": "OS/Waterlines/Regional_1",
-      "type": "line",
-      "source": "esri",
-      "source-layer": "Waterlines",
-      "minzoom": 6,
-      "maxzoom": 7,
-      "filter": ["==", "_symbol", 5],
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {"line-color": "#A4DAEB", "line-width": 0.5}
     },
     {
       "id": "OS/Roads/A Road,0_1",

@@ -50,7 +50,7 @@
       "maxzoom": 9,
       "filter": ["==", "_symbol", 0],
       "layout": {},
-      "paint": {"fill-color": "rgba(220,215,198,0.3)"}
+      "paint": {"fill-color": "#713EA0"}
     },
     {
       "id": "OS/Urban_areas/Regional/1",

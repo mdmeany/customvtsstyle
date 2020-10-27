@@ -42,6 +42,17 @@
       "paint": {"fill-color": "#E2EFCE", "fill-opacity": 0.5}
     },
     {
+      "id": "OS/Urban_areas/National/1",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "Urban_areas",
+      "minzoom": 5,
+      "maxzoom": 9,
+      "filter": ["==", "_symbol", 0],
+      "layout": {},
+      "paint": {"fill-color": "rgba(220,215,198,0.3)"}
+    },
+    {
       "id": "OS/Urban_areas/Regional/1",
       "type": "fill",
       "source": "esri",
@@ -251,6 +262,17 @@
       "paint": {"fill-pattern": "OS/TopographicArea_1/Cliff"}
     },
     {
+      "id": "OS/Woodland:3/Local/1",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "Woodland:3",
+      "minzoom": 12,
+      "maxzoom": 15,
+      "filter": ["==", "_symbol", 0],
+      "layout": {},
+      "paint": {"fill-color": "#D1E7C3"}
+    },
+    {
       "id": "OS/Woodland:3/National/1",
       "type": "fill",
       "source": "esri",
@@ -283,6 +305,16 @@
       "paint": {"fill-color": "#DCD7C6"}
     },
     {
+      "id": "OS/Local_buildings/1",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "Local_buildings",
+      "minzoom": 12,
+      "maxzoom": 15,
+      "layout": {},
+      "paint": {"fill-color": "#DCD7C6"}
+    },
+    {
       "id": "OS/Foreshore/1",
       "type": "fill",
       "source": "esri",
@@ -292,7 +324,50 @@
       "layout": {},
       "paint": {"fill-color": "#EAEAD2"}
     },
-    
+    {
+      "id": "OS/TopographicArea_2/Structure",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "TopographicArea_2",
+      "minzoom": 15,
+      "maxzoom": 16,
+      "filter": ["==", "_symbol", 6],
+      "layout": {},
+      "paint": {"fill-color": "#F5F5F0"}
+    },
+    {
+      "id": "OS/TopographicArea_2/Manmade",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "TopographicArea_2",
+      "minzoom": 15,
+      "maxzoom": 16,
+      "filter": ["==", "_symbol", 5],
+      "layout": {},
+      "paint": {"fill-color": "#F5F5F0"}
+    },
+    {
+      "id": "OS/TopographicArea_2/Building/1",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "TopographicArea_2",
+      "minzoom": 15,
+      "maxzoom": 16,
+      "filter": ["==", "_symbol", 4],
+      "layout": {},
+      "paint": {"fill-color": "#DCD7C6"}
+    },
+    {
+      "id": "OS/TopographicArea_2/Road Bridge",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "TopographicArea_2",
+      "minzoom": 15,
+      "maxzoom": 16,
+      "filter": ["==", "_symbol", 1],
+      "layout": {},
+      "paint": {"fill-color": "#F5F5F0"}
+    },
     {
       "id": "OS/TopographicArea_1/Building/1",
       "type": "fill",
@@ -351,6 +426,50 @@
       "filter": ["==", "_symbol", 1],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {"line-color": "#A4DAEB", "line-width": 1}
+    },
+    {
+      "id": "OS/Waterlines/National",
+      "type": "line",
+      "source": "esri",
+      "source-layer": "Waterlines",
+      "minzoom": 5,
+      "maxzoom": 6,
+      "filter": ["==", "_symbol", 4],
+      "layout": {"line-cap": "round", "line-join": "round"},
+      "paint": {"line-color": "#A4DAEB", "line-width": 0.4}
+    },
+    {
+      "id": "OS/Waterlines/Regional",
+      "type": "line",
+      "source": "esri",
+      "source-layer": "Waterlines",
+      "minzoom": 7,
+      "maxzoom": 9,
+      "filter": ["==", "_symbol", 5],
+      "layout": {"line-cap": "round", "line-join": "round"},
+      "paint": {"line-color": "#A4DAEB", "line-width": 1}
+    },
+    {
+      "id": "OS/Waterlines/Regional_1",
+      "type": "line",
+      "source": "esri",
+      "source-layer": "Waterlines",
+      "minzoom": 6,
+      "maxzoom": 7,
+      "filter": ["==", "_symbol", 5],
+      "layout": {"line-cap": "round", "line-join": "round"},
+      "paint": {"line-color": "#A4DAEB", "line-width": 0.5}
+    },
+    {
+      "id": "OS/Roads/A Road,0_1",
+      "type": "line",
+      "source": "esri",
+      "source-layer": "Roads",
+      "minzoom": 7,
+      "maxzoom": 8,
+      "filter": ["==", "_symbol", 6],
+      "layout": {"line-cap": "round", "line-join": "round"},
+      "paint": {"line-color": "#77C776", "line-width": 1.3}
     },
     {
       "id": "OS/Roads/Motorway,0/1",
@@ -1160,6 +1279,261 @@
         }
       }
     },
+    {
+      "id": "OS/Names/National/Capital:1",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "Capital:1",
+      "maxzoom": 9,
+      "layout": {
+        "icon-image": "OS/Names/National/Capital:1",
+        "icon-allow-overlap": true
+      },
+      "paint": {"icon-color": "rgba(255,0,0,0)"}
+    },
+ 		{
+      "id": "OS/Names/Local/City:3",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "City:3",
+      "minzoom": 13,
+      "maxzoom": 16,
+      "layout": {
+        "icon-image": "OS/Names/Local/City:3",
+        "icon-allow-overlap": true,
+        "text-font": ["Source Sans Pro Regular"],
+        "text-size": 21,
+        "text-anchor": "center",
+        "text-field": "{_name}",
+        "text-optional": true
+      },
+      "paint": {
+        "icon-color": "rgba(255,0,0,0)",
+        "text-color": "#342A07",
+        "text-halo-color": "#F5F5F0",
+        "text-halo-width": 3
+      }
+    },
+    {
+      "id": "OS/Names/District/City:4",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "City:4",
+      "minzoom": 11,
+      "maxzoom": 13,
+      "layout": {
+        "icon-image": "OS/Names/District/City:4",
+        "icon-allow-overlap": true,
+        "text-font": ["Source Sans Pro Regular"],
+        "text-size": 17,
+        "text-anchor": "center",
+        "text-field": "{_name}",
+        "text-optional": true
+      },
+      "paint": {
+        "icon-color": "rgba(255,0,0,0)",
+        "text-color": "#342A07",
+        "text-halo-color": "#F5F5F0",
+        "text-halo-width": 2
+      }
+    },
+    {
+      "id": "OS/Names/Regional/City:1",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "City:1",
+      "minzoom": 9,
+      "maxzoom": 11,
+      "layout": {
+        "icon-image": "OS/Names/Regional/City:1",
+        "icon-allow-overlap": true,
+        "text-font": ["Source Sans Pro Semibold"],
+        "text-size": 17,
+        "text-anchor": "center",
+        "text-field": "{_name}",
+        "text-allow-overlap": true,
+        "text-optional": true
+      },
+      "paint": {
+        "icon-color": "rgba(255,0,0,0)",
+        "text-color": "#342A07",
+        "text-halo-color": "#F5F5F0",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "OS/Names/National/City:2",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "City:2",
+      "maxzoom": 9,
+      "layout": {
+        "icon-image": "OS/Names/National/City:2",
+        "icon-allow-overlap": true,
+        "text-font": ["Source Sans Pro Regular"],
+        "text-size": 16,
+        "text-anchor": "center",
+        "text-field": "{_name}",
+        "text-optional": true
+      },
+      "paint": {
+        "icon-color": "rgba(255,0,0,0)",
+        "text-color": "#342A07",
+        "text-halo-color": "#F5F5F0",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "OS/Names/Local/Capital:3",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "Capital:3",
+      "minzoom": 13,
+      "maxzoom": 16,
+      "layout": {
+        "icon-image": "OS/Names/Local/Capital:3",
+        "icon-allow-overlap": true,
+        "text-font": ["Source Sans Pro Regular"],
+        "text-size": 24,
+        "text-anchor": "center",
+        "text-field": "{_name}",
+        "text-optional": true
+      },
+      "paint": {
+        "icon-color": "rgba(255,0,0,0)",
+        "text-color": "#342A07",
+        "text-halo-color": "#F5F5F0",
+        "text-halo-width": 3
+      }
+    },
+    {
+      "id": "OS/Names/District/Capital:4",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "Capital:4",
+      "minzoom": 11,
+      "maxzoom": 13,
+      "layout": {
+        "icon-image": "OS/Names/District/Capital:4",
+        "icon-allow-overlap": true,
+        "text-font": ["Source Sans Pro Regular"],
+        "text-size": 20,
+        "text-anchor": "center",
+        "text-field": "{_name}",
+        "text-optional": true
+      },
+      "paint": {
+        "icon-color": "rgba(255,0,0,0)",
+        "text-color": "#342A07",
+        "text-halo-color": "#F5F5F0",
+        "text-halo-width": 3
+      }
+    },
+    {
+      "id": "OS/Names/Regional/Capital:2",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "Capital:2",
+      "minzoom": 9,
+      "maxzoom": 11,
+      "layout": {
+        "icon-image": "OS/Names/Regional/Capital:2",
+        "icon-allow-overlap": true,
+        "text-font": ["Source Sans Pro Semibold"],
+        "text-size": 18,
+        "text-anchor": "center",
+        "text-field": "{_name}",
+        "text-optional": true
+      },
+      "paint": {
+        "icon-color": "rgba(255,0,0,0)",
+        "text-color": "#342A07",
+        "text-halo-color": "#F5F5F0",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "OS/Names/National/Capital:1/label/Capital National",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "Capital:1",
+      "minzoom": 5,
+      "maxzoom": 9,
+      "filter": ["==", "_label_class", 0],
+      "layout": {
+        "text-font": ["Source Sans Pro Semibold"],
+        "text-size": 16,
+        "text-anchor": "center",
+        "text-field": "{_name}",
+        "text-optional": true
+      },
+      "paint": {
+        "text-color": "#342A07",
+        "text-halo-color": "#F5F5F0",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "OS/Names/National/Country/label/Country National",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "Country",
+      "minzoom": 5,
+      "maxzoom": 9,
+      "filter": ["==", "_label_class", 0],
+      "layout": {
+        "text-font": ["Source Sans Pro Semibold"],
+        "text-size": 21,
+        "text-anchor": "center",
+        "text-letter-spacing": 0.75,
+        "text-field": "{_name}",
+        "text-allow-overlap": true,
+        "text-optional": true
+      },
+      "paint": {
+        "text-color": "rgba(54,44,7,0.5)",
+        "text-halo-color": "#F5F5F0",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "OS/Names/National/Capital:1/label/Capital National 1:5.7m+",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "Capital:1",
+      "maxzoom": 5,
+      "filter": ["==", "_label_class1", 1],
+      "layout": {
+        "text-font": ["Source Sans Pro Semibold"],
+        "text-size": 13,
+        "text-anchor": "center",
+        "text-offset": [0.270711, 0.0292893],
+        "text-field": "{_name1}",
+        "text-optional": true
+      },
+      "paint": {"text-color": "rgba(52,42,7,0.75)"}
+    },
+    {
+      "id": "OS/Names/National/Country/label/Country National 1:5.7m+",
+      "type": "symbol",
+      "source": "esri",
+      "source-layer": "Country",
+      "maxzoom": 5,
+      "filter": ["==", "_label_class1", 1],
+      "layout": {
+        "text-font": ["Source Sans Pro Semibold"],
+        "text-size": 16,
+        "text-anchor": "center",
+        "text-letter-spacing": 0.5,
+        "text-field": "{_name1}",
+        "text-optional": true
+      },
+      "paint": {
+        "text-color": "rgba(54,44,7,0.5)",
+        "text-halo-color": "#F5F5F0",
+        "text-halo-width": 1.5
+      }
+    }
   ],
   "id": "pz17l4kb9"
 }

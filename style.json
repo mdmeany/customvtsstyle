@@ -21,7 +21,7 @@
       "source": "esri",
       "source-layer": "Background",
       "layout": {},
-      "paint": {"fill-color": "#A9DDEF"}
+      "paint": {"fill-color": "#216A83"}
     },
     {
       "id": "OS/GB_land/1",
@@ -29,7 +29,7 @@
       "source": "esri",
       "source-layer": "GB_land",
       "layout": {},
-      "paint": {"fill-color": "#F5F5F0"}
+      "paint": {"fill-color": "#461B90"}
     },
     {
       "id": "OS/National_parks/1",
@@ -126,7 +126,7 @@
       "minzoom": 9,
       "maxzoom": 16,
       "layout": {},
-      "paint": {"fill-color": "#E3F0DB"}
+      "paint": {"fill-color": "#713EA0"}
     },
     {
       "id": "OS/Greenspace:2/0",
@@ -137,7 +137,7 @@
       "maxzoom": 16,
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#DBE6D5",
+        "line-color": "#713EA0",
         "line-width": {
           "stops": [
             [10, 0],

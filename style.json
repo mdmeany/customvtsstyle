@@ -97,17 +97,6 @@
       "paint": {"fill-color": "#713EA0"}
     },
     {
-      "id": "OS/Waterlines/Local",
-      "type": "line",
-      "source": "esri",
-      "source-layer": "Waterlines",
-      "minzoom": 11,
-      "maxzoom": 16,
-      "filter": ["==", "_symbol", 1],
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {"line-color": "#A4DAEB", "line-width": 1}
-    },
-    {
       "id": "OS/Roads/A Road,0_1",
       "type": "line",
       "source": "esri",
